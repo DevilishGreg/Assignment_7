@@ -1,0 +1,188 @@
+/* Background of the web page. */
+body {    
+  background-color:#556;
+  background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), 
+  linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+  background-size:80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+/* Content headers. */
+h1 {
+    
+    text-align: center; 
+    /* Location parameters and size. */
+    padding: 20px ;
+    
+    /* Text paramters */
+    color: black ;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif ;
+    font-size: x-large ;
+    font-weight: bold ;
+}
+
+h2 {
+    color: black ;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif ;
+    font-weight: bold ;
+}
+
+/* Division to hold the title, image and navigation bar. */
+header {
+    /* Location parameters and size. */
+    margin: 0 auto ;
+    width: 75% ;
+    min-width: 600px ;
+    max-width: 1260px ;
+    height: 200px ;
+}
+
+/* Navigation Bar */
+nav {
+   /* Location parameters and size. */
+   margin-top: 50px ;
+   float: right ;
+   width: 450px ;
+   height: 100px ;
+}
+
+/* Set list item parameters inside the navigation bar. */
+nav li {
+  display: inline;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 8px 0px 8px;
+  color: black;
+
+  border: 2px solid;
+  border-color: black;
+  border-radius: 20px;
+    
+  /*Color and border parameters */
+  background-color: lightgray ;
+  border-right: 1px solid black ;
+    
+  /* Text parameters. */
+  text-align: center ;
+}
+
+/* Set hover parameters to make buttons interavtive. */
+nav li:hover {
+    background-color: lightslategrey ;
+}
+
+/* Set link parameters inside navigation bar. */
+nav li a { 
+  /* Turns the area around the text into a link as well. */
+    
+  /* Remove underline */
+  text-decoration: none ;
+    
+  /* Text parameters. */
+  color: white ;
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+  font-size: medium ;
+}
+
+/* Division to hold webpages content. */
+#content {
+  /* Location parameters and size. */
+  margin: 0 auto ;
+  width: 50% ; 
+  min-width: 640px ;
+  max-width: 1260px ;
+  min-height: 200px ;
+    
+  /*Color and border parameters */
+  border-radius: 5px ;
+  background-color: lightblue ;
+  border-top: 1px solid black ;
+}
+
+/* Update the fonts of unordered lists in body_content_sub_pages*/
+#content ul {
+  /* Location parameters and size. */
+  padding-left: 2em ;
+    
+  /* Text paramters */
+  color: white ;
+  font-family: Geneva, Tahoma, Verdana, sans-serif ;
+  font-size: medium ;
+}
+
+/* Update the links in body_content_sub_pages*/
+#content a {    
+  /* Text paramters */
+  color: #af0000 ;
+  font-family: Geneva, Tahoma, Verdana, sans-serif ;
+  font-size: medium ;
+}
+
+/* em, turn empahized text gray so that it is visible.*/
+em {
+  font-size: small ;
+  color: gray ;
+}
+
+// Header in Home Styiling 
+#Header h1
+{
+  margin: 0 auto;  
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 45px;   
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+#Header p
+{
+  line-height: 1.30; 
+  margin: 0 auto;  
+  font-family: Geneva, Tahoma, Verdana, sans-serif ;
+  font-size: medium ; 
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+/* Picture Style */
+#Picture
+{
+  margin: 0 auto;  
+  font-family: Helvetica, Arial, sans-serif;  
+  text-decoration: none;
+  width: 60%;
+  min-width: 640px;
+  height: 275px;
+  box-shadow: 10px 10px 5px gray;
+  border-radius: 10px;
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+}
+
+
+/* Twitch Style */
+#Twitch
+{
+  padding: 10px;   
+  margin: 0 auto;  
+  font-family: Helvetica, Arial, sans-serif;  
+  text-decoration: none;
+  width: 65%;
+  min-width: 600px;
+  height: 380px;
+  box-shadow: 10px 10px 5px gray;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+}
