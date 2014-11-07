@@ -1,7 +1,10 @@
 // This script implements simple routing by loading partial HTML files 
 // named corresponding to fragment identifiers.
 //
-// By Curran Kelleher October 2014
+// Gregory James Caldwell Jr. 
+//
+// Modified from the code by Curran Kelleher.
+// https://github.com/curran/screencasts/tree/gh-pages/navigation
 
 // Wrap everything in an immediately invoked function expression,
 // so no global variables are introduced.
